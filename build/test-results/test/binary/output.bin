@@ -1,0 +1,24 @@
+Request method:	POST
+:Request URI:	https://automationintesting.online/booking/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+WHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Kris",
+    "bookingdates": {
+!        "checkin": "2023-05-09",
+!        "checkout": "2023-05-10"
+    },
+    "phone": "89969490412",
+    "depositpaid": false,
+%    "email": "first.last@gmail.com",
+    "roomid": 1,
+    "lastname": "Rool"
+}

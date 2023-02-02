@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.APItests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-02T15:44:20" hostname="KRISTINA" time="1.446">
+  <properties/>
+  <testcase name="checkStatusCodeOfBooking()" classname="tests.APItests" time="1.446"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://automationintesting.online/booking/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Kris",
+    "bookingdates": {
+        "checkin": "2023-05-09",
+        "checkout": "2023-05-10"
+    },
+    "phone": "89969490412",
+    "depositpaid": false,
+    "email": "first.last@gmail.com",
+    "roomid": 1,
+    "lastname": "Rool"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
